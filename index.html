@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <meta name="description" content="Site Portfolio d'Antoine Le Corre, étudiant dans le DEUST T-MIC à l'UBO de Brest souhaitant devenir développeur web">
+    <title>Antoine Le Corre, développeur web à Brest</title>
+    <script src="java.js" async></script>
+</head>
+<body>
+    
+    <header>
+        <div class="portable"><img src="menu.png" id="portable" alt="icone ouvrir le menu">
+            
+        </div>
+        <div id="menuPortable" class="none">
+            
+                <ul class="petit">
+
+                    <img src="close.png" id="close" alt="icone fermer le menu">
+                    <li><a href="#presents" id="current">Présentation</a></li>
+                    <li><a href="#ports">Mes réalisations</a></li>
+                    <li><a href="#compets">Compétences</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                
+            </div>
+
+        </div>
+        
+
+            <ul id = "menuOrdi" class="grand">
+                
+                <li><a href="#presents">Présentation</a></li>
+                <li><a href="#ports">Mes réalisations</a></li>
+                <li><a href="#compets">Compétences</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+       
+    </header>
+    <div class="fake" id="presents" ></div>
+        <div id="present" data-spy>
+            <div class="pre reveal-1">
+                
+            </div>
+            <div class="textepre reveal-1">
+                <h2>Bonjour,</h2>
+                <p>Je m'appelle Antoine Le Corre, étudiant en DEUST Technicien des Médias Intéractifs et Communicants, passioné par les nouvelles technologies et plus particulièrement par le monde du numérique.<br><br>Ce site portfolio a été développé en HTML, CSS et Javascript et est hébergé sur un orange pi 5 utilisant Debian et Apache2.</p>
+                <a href="Antoine-Le-Corre-CV.pdf" id="cv" target="_blank">télécharger mon cv</a>
+            </div>
+        </div>
+        
+        <div class="fake" id="ports" ></div>
+        <div id="port" class='reveal-1'data-spy>
+            <h1 class="reveal-2">Mes réalisations</h1>
+            <h3 class="reveal-2">Sites web développé en HTML, CSS et javascript</h3>
+            <div id="carousel1">
+                <div class="panorama">
+                <div class="pano"><div class="pano1"><a href="exercice" target="_blank"><img src="exercice.jpg" alt="site web réalisé en html,css et javascript"></a><div class="textepano" ><h4>La page d'abonnement</h4></div></div></div>
+                <div class="pano"><div class="pano1"><a href="anglais"  target="_blank"><img src="anglais.jpg" alt="site web réalisé en html, css et javascript"></a><div class="textepano"><h4>Site réalisé dans le cadre d'un cours d'anglais</h4></div></div></div>
+
+                <div class="pano"><div class="pano1"><a href="projet-com"  target="_blank"><img src="escalade.jpg" alt="site web réalisé en html et css"></a><div class="textepano"><h4>Les spots d'escalade du Finistère</h4></div></div></div>
+                <div class="pano"><div class="pano1"><a href="pierresite" target="_blank"><img src="sitePierre.jpg"  alt="site web réalisé en html et css"></a><div class="textepano"><h4>Le DJ Cartesian</h4></div></div></div>
+                <div class="pano"><div class="pano1"><a href="starter-code" target="_blank"><img src="space.jpg" alt="site web réalisé en html,css et javascript"></a><div class="textepano"><h4>Les voyageurs de l'espace</h4></div></div></div>
+                <div class="pano"><div class="pano1"><a href="papier" target="_blank"><img src="pierreFeuille.jpg" alt="site web réalisé en html,css et javascript"></a><div class="textepano"><h4>Le pierre, feuille, ciseaux</h4></div></div></div>
+
+                
+            </div>
+            <div  id="droite"><div class="flechedroite"></div></div>
+                <div  id="gauche"><div class="flechegauche"></div></div>
+                <div class="pagination"><div class="button"></div><div class="button"></div><div class="button"></div></div>
+            </div>
+            <h3 class="h32 reveal-2" >Sites web réalisés avec Wordpress</h3>
+            <div id="carousel2">
+                <div class="panorama">
+                    <div class="pano"><div class="pano1"><a href="https://levillagebycafinistere.com/" target="_blank"><img src="village.webP" alt="site du village by ca finistère"></a><div class="textepano"><h4>Le Village by CA Finistère</h4></div></div></div>
+                    <div class="pano"><div class="pano1"><a href="https://www.consultantseas.com/fr/accueil/" target="_blank"><img src="consultantseas.jpg" alt="site consultantseas"></a><div class="textepano"><h4>Consultantseas</h4></div></div></div>
+
+                    <div class="pano"><div class="pano1"><a href="recyclo56" target="_blank"><img src="recyclo.webP" alt="site recyclo56"></a><div class="textepano"><h4>Recyclo 56, magasin de vélo</h4></div></div></div>
+                    
+                </div>
+
+                
+            </div>
+         </div>
+        
+    <div class="fake" id="compets" ></div>
+        <div id="compet" class="reveal-1" data-spy>
+           
+                <h2>Mes compétences</h2>
+                
+            
+            <div class="compet">
+                <img src="html.jpg" alt="logo représentant les languages html et css">
+                <div class="tous">
+                <p>HTML, CSS</p>
+                <div class="niveau1"></div>
+            </div>
+        </div>
+         <div class="compet">
+            <img src="logo-WordPress.jpg" alt="logo Wordpress">
+            <div class="tous">
+            <p>WordPress</p>
+            <div class="niveau4"></div>
+        </div>
+    </div>
+            <div class="compet">
+                <img src="js.jpg" alt="logo javascript">
+                <div class="tous">
+                <p>Javascript</p>
+                <div class="niveau2"></div>
+            </div>
+            </div>
+            <div class="compet">
+                
+                <img src="php.png" alt="logo php">
+                <div class="tous">
+                <p>PHP</p>
+                <div class="niveau3"></div>
+            </div>
+            </div>
+
+
+        </div>
+        <div class="fake" id="contacts" ></div>
+        <div id="contact" class="reveal-1" data-spy>
+            <h2>Contact</h2>
+            <p>Actuellement à la recherche d'une alternance dans le domaine du développement web, je me tiens disponible pour tous renseignements complémentaires</p>
+            <h3>Vous pouvez me contacter par mail :<br><br>
+                <strong>antoinelecorre56@gmail.com</strong><br><br><br>
+                ou par sms au :<br><br>
+                <strong>07 67 13 82 31</strong>
+                </h3>
+
+        </div>
+    
+    
+</body>
+</html>
